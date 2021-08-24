@@ -10,7 +10,7 @@ This is used to randomly generate teams based off a ranking system (1-3) for pla
 7) Prints out the information to be assigned as teams. 
 
 # Sample Output 
-`Total Number of Players: 51
+```Total Number of Players: 51
 Max Players Per Team: 8
 
 ------ Player Ranks -----
@@ -126,4 +126,4 @@ Team CAP 6: Player # 8: Team Score: 12
 + --- Nicholas Nelson
 + --- Mary Wright
 + --- Lisa Howard
-+ --- Teresa Ross`
++ --- Teresa Ross```
