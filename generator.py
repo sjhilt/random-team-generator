@@ -89,7 +89,7 @@ for player in playerRanks["1"]:
 	teamPlacement = random.choice(list(teams.keys()))
 	placedPlayer = 0
 	while placedPlayer == 0:
-		if len(teams[teamPlacement]) < maxPlayers:
+		if len(teams[teamPlacement]) <= maxPlayers:
 			teams[teamPlacement].append(player)
 			teamScore[teamPlacement] += 1
 			placedPlayer = 1
@@ -100,7 +100,7 @@ for player in playerRanks["2"]:
 	teamPlacement = random.choice(list(teams.keys()))
 	placedPlayer = 0
 	while placedPlayer == 0:
-		if len(teams[teamPlacement]) < maxPlayers:
+		if len(teams[teamPlacement]) <= maxPlayers:
 			teams[teamPlacement].append(player)
 			teamScore[teamPlacement] += 1
 			placedPlayer = 1
@@ -111,7 +111,7 @@ for player in playerRanks["3"]:
 	teamPlacement = random.choice(list(teams.keys()))
 	placedPlayer = 0
 	while placedPlayer == 0:
-		if len(teams[teamPlacement]) < maxPlayers:
+		if len(teams[teamPlacement]) <= maxPlayers:
 			teams[teamPlacement].append(player)
 			teamScore[teamPlacement] += 1
 			placedPlayer = 1
