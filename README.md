@@ -126,4 +126,4 @@ Team CAP 6: Player # 8: Team Score: 12
 + --- Nicholas Nelson
 + --- Mary Wright
 + --- Lisa Howard
-+ --- Teresa Ross```
++ --- Teresa Ross
